@@ -1,3 +1,33 @@
-@media only  screen and (max-width: 380px) {
-  
+@media only  screen and (max-width: 1291px) {
+    .box img{
+        width: 200px !important;
+    }
+.carddoacoes{
+    width: 250px !important;
+}
+.carddoacoes p{
+    width: 200px !important;
+}
+.informacoes{
+    width: 100%;
+}
+}
+
+@media only screen and (max-width: 1144px){
+    .carddoacoes{
+        width: 225px !important;
+    }
+
+    .carddoacoes p{
+        width: 180px !important;
+    }
+
+    .carddoacoes img{
+        width: 180px !important;
+    }
+}
+@media only screen and(max-width: 1041px){
+    .carddoacoes{
+        width: 100px !important;
+    }
 }
