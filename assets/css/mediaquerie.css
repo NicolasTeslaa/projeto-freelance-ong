@@ -15,19 +15,139 @@
 
 @media only screen and (max-width: 1144px){
     .carddoacoes{
-        width: 225px !important;
+        width: 190px !important;
     }
 
     .carddoacoes p{
-        width: 180px !important;
+        width: 150px !important;
     }
 
     .carddoacoes img{
-        width: 180px !important;
+        width: 150px !important;
     }
+
 }
-@media only screen and(max-width: 1041px){
+
+@media only screen and (max-width: 999px){
+    .imageabout img{
+        width: 400px !important;
+    }
+
+}
+
+@media only screen and (max-width: 901px){
+    .imageabout img{
+        width: 350px !important;
+    }
     .carddoacoes{
-        width: 100px !important;
+        width: 170px !important;
+    }
+    .carddoacoes p{
+        width: 120px !important;
+    }
+    .carddoacoes img{
+        width: 120px !important;
     }
 }
+
+@media only screen and (max-width: 859px){
+    .textoabout h1{
+        font-size: 1.5em;
+    }
+    .textoabout p{
+        font-size: 1em;
+    }
+    .about img{
+        width: 300px !important;
+    }
+}
+
+@media only screen and (max-width: 819px){
+
+    .doacoes{
+        margin-top: 100px !important;
+    }
+ .box{
+     display: grid !important;
+     grid-template-columns: 1fr 1fr;
+    gap: 30px !important;
+ }
+
+ .carddoacoes{
+     width: 300px !important;
+ }
+
+ .carddoacoes img{
+    width: 250px !important;
+ }
+ .carddoacoes p{
+     width: 250px !important;
+ }
+ .local{
+     margin-top: 200px !important;
+ }
+}
+
+@media only screen and (max-width: 727px){
+    .about{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imageabout{
+        margin-top: 40px !important;
+    }
+
+    .doacoes{
+        margin-top: 300px !important;
+    }
+}
+
+@media only screen and (max-width: 671px){
+    .link_item a{
+        font-size: 15px !important ;
+    }
+
+    .box{
+        gap: 10px !important;
+    }
+    .carddoacoes{
+        width: 250px !important;
+    }
+
+    .carddoacoes p{
+        width: 200px !important;
+
+    }
+    .carddoacoes img{
+        width: 200px !important;
+    }
+
+}
+
+@media only screen and (max-width: 635px){
+    .link_item a{
+        font-size: 12px !important ;
+    }
+
+    .carddoacoes{
+        width: 200px !important;
+    }
+
+    .carddoacoes img{
+        width: 150px !important;
+    }
+    .carddoacoes p{
+        width: 150px !important;
+
+    }
+
+    .item{
+        display: flex;
+        flex-direction: column;
+    }
+    .item h2{
+        font-size: 10px !important;
+    }
+}
+

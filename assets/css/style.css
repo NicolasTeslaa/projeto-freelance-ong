@@ -1,6 +1,4 @@
-@import 'modal.css';
 @import 'mediaquerie.css';
-@import 'swiper.css';
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,700;0,800;1,400&display=swap');
 
 * {
@@ -10,6 +8,10 @@
   font-family: 'Poppins', sans-serif;
 }
 
+body{
+  background-color: green;
+
+}
 .whatsapp-link:hover {
   transform: scale(1.05);
   box-shadow: 4px 10px 15px -5px #00000070;
@@ -168,6 +170,7 @@ header .links .link_item img {
 
 .about img {
   width: 500px;
+  border-radius: 5%;
 }
 
 .textoabout {
