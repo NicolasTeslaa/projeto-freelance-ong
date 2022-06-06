@@ -151,3 +151,103 @@
     }
 }
 
+@media only screen and (max-width:375px){
+  
+    .nav{
+        display: flex;
+        flex-direction: column;
+        width: 100% !important;
+    }
+    .link_item a p{
+        font-size: 10px !important;
+    }
+    
+    .logo img{
+        width: 50px !important;
+    }
+    .hero{
+        height: 80vh !important;
+    }
+    .imagehero img{
+        height: 80vh !important;
+    }
+    .textohero{
+        top: 30% !important;
+        left: 5% !important;
+    }
+    .textohero h1{
+        font-size: 2rem !important ;
+    }
+    .textohero h3{
+        font-size: 1.2rem !important;
+    }
+    .textohero a{
+        margin-top: 25px !important;
+        font-size: 2rem !important;
+    }
+
+    .setaBaixo{
+        margin-top: 80vh !important;
+    }
+
+    .about{
+        margin-top: 100px !important;
+    }
+    .textoabout{
+        width: 80% !important;
+    }
+
+    .doacoes{
+        margin-top: 800px !important;
+        width: 100% !important;
+    }
+    .box{
+        width: 90% !important;
+        display: flex !important;
+        flex-direction: column;
+    }
+    .carddoacoes{
+        width: 300px !important;
+    }
+    .carddoacoes img{
+        width: 250px !important;
+    }
+    .carddoacoes p{
+        width: 250px !important;
+    }
+    .localizacao{
+        margin-top: 50px !important;
+    }
+    .local{
+        margin-top: 700px !important;
+        height: 600px !important;
+    }
+
+    .item a h2{
+        font-size: 8px !important;
+    }
+
+    .mapa iframe{
+        height: 300px !important;
+    }
+    .doepixpai{
+        width: 100%;
+    }
+
+    .doepix{
+        width: 100% !important;
+    }
+    .doepix h1{
+        font-size: 20px !important;
+    }
+    .qrcode img{
+        width: 150px !important;
+    }
+
+    footer p:nth-child(1){
+        font-size: 20px !important;
+    }
+    footer p:nth-child(2){
+        width: 100% !important;
+    }
+}
