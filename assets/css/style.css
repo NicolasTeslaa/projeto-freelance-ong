@@ -40,13 +40,17 @@ body {
 }
 
 header {
+  width: 100%;
   height: 100px;
+  position: fixed;
+  background-color: green;
+  opacity: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
   box-shadow: 0px 10px 13px -7px #1313131e, 0px 0px 0px 2px rgba(0, 0, 0, 0);
-
+  z-index: 1;
 }
 
 header img {
@@ -102,6 +106,7 @@ div.itemcarousel {
   margin-top: 100px;
   position: absolute;
   width: 545px;
+  height: 500px;
   --r: calc(var(--position) - var(--offset));
   --abs: max(calc(var(--r) * -1), var(--r));
   transition: all 0.25s linear;
@@ -129,9 +134,6 @@ div.itemcarousel:nth-of-type(5) {
   --offset: 5;
 }
 
-.itemcarousel a {
-  height: 100%;
-}
 
 .itemcarousel img {
   width: 100%;
@@ -190,6 +192,7 @@ input:nth-of-type(5):checked~main#carousel {
 
 .imagehero {
   position: relative;
+  height: 90vh;
 }
 
 .textohero {
@@ -398,6 +401,7 @@ input:nth-of-type(5):checked~main#carousel {
   display: flex;
   flex-direction: row;
   column-gap: 10px;
+  width: 90%;
 }
 
 .item {
