@@ -29,8 +29,17 @@
 }
 
 @media only screen and (max-width: 999px){
+    .botaoacoes a{
+        font-size: 1.2rem !important;
+    }
     .imageabout img{
         width: 400px !important;
+    }
+    .open_modal h2{
+        font-size: 1.2rem !important;
+    }
+    footer{
+        font-size: 1.2rem !important;
     }
 
 }
@@ -101,6 +110,10 @@
     .doacoes{
         margin-top: 300px !important;
     }
+
+    .item a h2{
+        font-size: 10px !important ;
+    }
 }
 
 @media only screen and (max-width: 671px){
@@ -121,6 +134,14 @@
     }
     .carddoacoes img{
         width: 200px !important;
+    }
+
+    .botaoacoes a{
+        font-size: 1rem !important;
+    }
+
+    footer{
+        font-size: 1rem !important;
     }
 
 }
@@ -148,6 +169,44 @@
     }
     .item h2{
         font-size: 10px !important;
+    }
+}
+
+@media only screen and (max-width: 579px){
+    .botaoacoes a{
+        margin-left: 20px !important;
+    }
+}
+@media only screen and (max-width: 427px){
+.logo img{
+    width: 70px !important;
+}
+
+.botaoacoes{
+    margin-left: -60px;
+}
+    .botaoacoes a{
+        font-size: 12px !important;
+        margin-left: 10px !important;
+    }
+    .hero{
+        height: 70vh !important;
+    }
+
+    .textohero{
+        left: 10% !important;
+        top: 30% !important;
+    }
+    .imagehero img{
+        height: 70vh !important;
+    }
+    footer{
+        font-size: 12px !important;
+    }
+}
+@media only screen and (max-width:414px){
+    .botaoacoes a{
+        margin-left: 10px !important;
     }
 }
 

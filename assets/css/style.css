@@ -79,6 +79,7 @@ header img {
 }
 
 .open_modal {
+  cursor: pointer;
   display: flex;
   align-items: center;
   column-gap: 20px;
@@ -406,7 +407,7 @@ header img {
   display: flex;
   flex-direction: row;
   column-gap: 10px;
-  width: 90%;
+  width: 70%;
 }
 
 .item {
@@ -501,7 +502,7 @@ header img {
 
 .objectothree {
   position: absolute;
-  top: 90%;
+  top: 80%;
   left: 60%;
 }
 
@@ -618,4 +619,8 @@ footer {
 .end a {
   text-decoration: none;
   color: #fff;
+}
+
+.pointer{
+  cursor: pointer;
 }
